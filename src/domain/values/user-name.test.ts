@@ -22,6 +22,7 @@ describe('UserName', () => {
 
     test('文字列以外の場合は例外を返す', () => {
         expect(() => {
+            /* eslint-disable @typescript-eslint/no-explicit-any */
             new UserName(123 as any)
         }).toThrow(new Error(`ユーザー名は1文字以上の文字列である必要があります`))
     })

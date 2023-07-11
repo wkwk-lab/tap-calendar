@@ -6,7 +6,7 @@ export class UserName {
   private validation(value: unknown) {
     const isValid = typeof value === "string" && value.length >= 1;
     if (!isValid) {
-      throw new Error(`ユーザー名は1文字以上の文字列である必要があります`);
+      throw new Error(`ユーザー名は１文字以上の文字列である必要があります`);
     }
   }
 }

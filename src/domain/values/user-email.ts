@@ -1,11 +1,11 @@
 export class UserEmail {
-  value: string
+  value: string;
 
   constructor(value: string) {
-    this.value = value
+    this.value = value;
 
-    if (!this.value.includes('@')) {
-      throw new Error('メールアドレスが正しくありません')
+    if (!this.value.includes("@")) {
+      throw new Error("メールアドレスが正しくありません");
     }
   }
 }

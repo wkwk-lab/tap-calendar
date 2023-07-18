@@ -10,6 +10,6 @@ describe("UserEmail", () => {
   test("正しくないメールアドレスの文字列を渡したら例外を投げる", () => {
     expect(() => {
       new UserEmail("invalid");
-    }).toThrow("メールアドレスが正しくありません");
+    }).toThrow("メールアドレスが正しくありませんあ");
   });
 });

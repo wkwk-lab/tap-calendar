@@ -3,8 +3,8 @@ import { UserName } from "./user-name";
 
 describe("UserName", () => {
   test("正しい名前を渡すとインスタンスを返す", () => {
-    const userName = new UserName("kyouhi");
-    expect(userName.value).toBe("kyouhi");
+    const userName = new UserName("takenaka");
+    expect(userName.value).toBe("takenaka");
   });
 
   test("スペースを一つ含む文字列を通す", () => {

@@ -5,7 +5,7 @@ export class UserEmail {
     this.value = value;
 
     if (!this.value.includes("@")) {
-      throw new Error("メールアドレスが正しくありません");
+      throw new Error("メールアドレスが正しくありませんかも");
     }
   }
 }
